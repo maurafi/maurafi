@@ -1,7 +1,7 @@
 streamlit==1.41.0
 pandas
 matplotlib==3.6.2
-seaborn==0.10.1
+seaborn
 plotly
 yfinance
 pandas-datareader
