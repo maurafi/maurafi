@@ -2,3 +2,7 @@ streamlit==1.41.0
 pandas==1.5.1
 matplotlib==3.6.2
 seaborn==0.10.1
+plotly
+yfinance
+pandas-datareader
+prophet
