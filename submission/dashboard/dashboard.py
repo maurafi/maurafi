@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 
-all_df = pd.read_csv("all_monthly_trends.csv")
+all_df = pd.read_csv("https://raw.githubusercontent.com/maurafi/maurafi/refs/heads/main/submission/dashboard/all_monthly_trends.csv")
 all_df['Year-Month'] = pd.to_datetime(all_df['Year-Month'])
 
 
@@ -20,7 +20,7 @@ min_date = all_df['Year-Month'].min()
 max_date = all_df['Year-Month'].max()
 # Sidebar untuk input
 with st.sidebar:
-    st.image("AQ-img.png")
+    st.image("https://github.com/maurafi/maurafi/blob/main/submission/dashboard/AQ-img.png")
     start_date, end_date = st.date_input(
         label='Rentang Waktu', min_value=min_date.date(),
         max_value=max_date.date(),
